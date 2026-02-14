@@ -1,5 +1,12 @@
 {
   "dependencies": {
     "firebase": "^12.9.0"
+  },
+  "devDependencies": {
+    "sass": "^1.97.3"
+  },
+  "scripts": {
+    "scss": "sass scss/main.scss css/styles.css",
+    "scss:watch": "sass --watch scss/main.scss:css/styles.css"
   }
 }
