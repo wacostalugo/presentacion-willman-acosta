@@ -1,6 +1,19 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-12GVLDCGQF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-12GVLDCGQF");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -33,6 +46,47 @@
     <link
       rel="manifest"
       href="/https://willmanacostalugo.com/assets/favicon.ico, enter /my-favicon/./site.webmanifest"
+    />
+
+    <title>Willman Acosta | Cloud Operations Director & EdTech Architect</title>
+    <meta
+      name="description"
+      content="Especialista en escalabilidad de infraestructuras críticas (+750k usuarios) en AWS/GCP. Arquitecto EdTech y PhD(c) en Ciencias de la Educación."
+    />
+    <meta
+      name="keywords"
+      content="Cloud Operations, EdTech, AWS, Google Cloud, Moodle, DevOps, Transformación Digital, Willman Acosta"
+    />
+    <meta name="author" content="Willman Acosta Lugo" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://willmanacostalugo.com/" />
+    <meta
+      property="og:title"
+      content="Willman Acosta | Cloud Operations Director & EdTech Architect"
+    />
+    <meta
+      property="og:description"
+      content="Liderando la intersección entre ingeniería de sistemas críticos y pedagogía. Escalando el futuro de la educación."
+    />
+    <meta
+      property="og:image"
+      content="https://willmanacostalugo.com/images/willman-acosta.jpg"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://willmanacostalugo.com/" />
+    <meta
+      property="twitter:title"
+      content="Willman Acosta | Cloud Operations Director & EdTech Architect"
+    />
+    <meta
+      property="twitter:description"
+      content="Infraestructuras Cloud para EdTech a escala masiva."
+    />
+    <meta
+      property="twitter:image"
+      content="https://willmanacostalugo.com/images/willman-acosta.jpg"
     />
 
     <link rel="stylesheet" href="css/styles.css" />
@@ -301,5 +355,15 @@
         <p class="copyright">© 2026 Willman Acosta Lugo</p>
       </div>
     </footer>
+    <script>
+      document
+        .querySelector(".btn-download")
+        .addEventListener("click", function () {
+          gtag("event", "download_cv", {
+            event_category: "engagement",
+            event_label: "CV PDF",
+          });
+        });
+    </script>
   </body>
 </html>
