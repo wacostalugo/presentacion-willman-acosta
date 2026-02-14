@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Indica la ubicación del Sitemap para facilitar el rastreo
+Sitemap: https://willmanacostalugo.com/sitemap.xml
